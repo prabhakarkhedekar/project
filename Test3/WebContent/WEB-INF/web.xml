@@ -1,0 +1,11 @@
+<web-app>
+	<servlet>
+		<servlet-name>welcome</servlet-name>
+		<servlet-class>test.welcome</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>welcome</servlet-name>
+		<url-pattern>/dis</url-pattern>
+
+	</servlet-mapping>
+</web-app>
